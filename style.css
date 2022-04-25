@@ -3,20 +3,40 @@
   padding: 0;
   box-sizing: border-box;
   background-color: rgba(107, 105, 105, 0.493);
+  font-family: "Oswald", sans-serif;
+}
+h2 {
+  margin: 10px;
+  text-align: center;
 }
 .meza {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  background-color: beige;
+  background-color: rgb(56, 56, 55);
 }
 
 canvas {
   margin: 10px;
+
   border: solid green;
+  background: rgb(0 110 221);
 }
 header {
   align-items: center;
   text-align: center;
+}
+.title--header {
+  font-size: 100px;
+}
+.instrucciones {
+  text-align: center;
+}
+.instrucciones--titulo {
+  margin: 10px;
+}
+.instrucciones--listaInstrucciones {
+  margin: 10px;
+  font-size: 25px;
 }
