@@ -30,7 +30,7 @@
     this.direction = 1;
     this.bounce_angle = 0;
     this.max_bounce_angle = Math.PI / 12;
-    this.speed = 8;
+    this.speed = 7;
 
     board.ball = this;
     this.kind = "circle";
@@ -72,7 +72,7 @@
     this.board = board;
     this.board.bars.push(this);
     this.kind = "rectangle";
-    this.speed = 15;
+    this.speed = 20;
   };
 
   self.Bar.prototype = {
@@ -157,11 +157,11 @@
   }
 })();
 var board = new Board(800, 400);
-var bar = new Bar(20, 100, 40, 100, board);
-var bar_2 = new Bar(740, 100, 40, 100, board);
+var bar = new Bar(20, 150, 40, 100, board);
+var bar_2 = new Bar(740, 150, 40, 100, board);
 var canvas = document.getElementById("canvas");
 var board_view = new BoardView(canvas, board);
-var ball = new Ball(350, 100, 10, board);
+var ball = new Ball(400, 200, 10, board);
 
 document.addEventListener("keydown", function (ev) {
   if (ev.keyCode == 103) {

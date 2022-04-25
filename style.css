@@ -27,6 +27,9 @@ header {
   align-items: center;
   text-align: center;
 }
+.title--header {
+  font-size: 100px;
+}
 .instrucciones {
   text-align: center;
 }
