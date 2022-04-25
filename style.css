@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(107, 105, 105, 0.493);
+}
+.meza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: beige;
+}
+
+canvas {
+  margin: 10px;
+  border: solid green;
+}
+header {
+  align-items: center;
+  text-align: center;
+}
