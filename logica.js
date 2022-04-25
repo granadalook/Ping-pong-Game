@@ -30,7 +30,7 @@
     this.direction = 1;
     this.bounce_angle = 0;
     this.max_bounce_angle = Math.PI / 12;
-    this.speed = 3;
+    this.speed = 8;
 
     board.ball = this;
     this.kind = "circle";
@@ -72,7 +72,7 @@
     this.board = board;
     this.board.bars.push(this);
     this.kind = "rectangle";
-    this.speed = 10;
+    this.speed = 15;
   };
 
   self.Bar.prototype = {
